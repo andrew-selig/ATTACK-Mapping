@@ -1,0 +1,51 @@
+{
+	"name": "ATTACK-Mapping",
+	"versions": {
+		"attack": "12",
+		"navigator": "4.8.0",
+		"layer": "4.4"
+	},
+	"domain": "enterprise-attack",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Network",
+			"PRE",
+			"Containers",
+			"Office 365",
+			"SaaS",
+			"Google Workspace",
+			"IaaS",
+			"Azure AD"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [],
+	"gradient": {
+		"colors": [
+			"#ffffff",
+			"#c19b00"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
