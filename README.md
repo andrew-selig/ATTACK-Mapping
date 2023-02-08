@@ -1,6 +1,6 @@
 # ATTACK-Mapping
 
-This project allows an information security team to score themselves agasint the Mitre ATT&CK framework, document it in an XLSX file, and then convert it to JSON that can be used with the ATT&CK Navigator. 
+This project allows an information security team to score themselves against the Mitre ATT&CK framework, document it in an XLSX file, and then convert it to JSON that can be used with the ATT&CK Navigator. 
 
 ### Prep
 
