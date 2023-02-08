@@ -13,13 +13,19 @@ pip install openpyxl
 ### Executing
 
 Be default, `attack-mapper.py` will use the files in the `examples` folder.
--`ATTACK-default.json` - a base ATT&CK JSON file for the Navigator. Only change is to the color.
--`ATTACK-example.xlsx` - an Excel document with random scores for each technique.
--`ATTACK-output.json` - a generated file when the script is run
+
+`ATTACK-default.json` - a base ATT&CK JSON file for the Navigator. Only change is to the color.
+
+`ATTACK-example.xlsx` - an Excel document with random scores for each technique.
+
+`ATTACK-output.json` - a generated file when the script is run
 
 Changes to the location of each file can be made using the following arguments:
--`-t` - location of the JSON template.
--`-e` - location of the Excel document.
--`-o` - destination location for the output file.
+
+`-t` - location of the JSON template.
+
+`-e` - location of the Excel document.
+
+`-o` - destination location for the output file.
 
 The `ATTACK-output.json` can then be uploaded to the [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) 
