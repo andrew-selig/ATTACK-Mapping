@@ -1,6 +1,26 @@
 # ATTACK-Mapping
 
-This project allows an information security team to score themselves against the Mitre ATT&CK framework, document it in an XLSX file, and then convert it to JSON that can be used with the ATT&CK Navigator. 
+This project allows an information security team to score themselves against the Mitre ATT&CK framework, document it in an XLSX file, and then convert it to JSON that can be used with the ATT&CK Navigator. For more information on background, check out this article: [Title](https://medium.com/@andrewselig/something)
+
+### Files
+
+`ATTACK-template.xlsx`
+
+This file is a template Excel document that is based off of the article listed above, with three input scores that factor out to a total score. As the team moves through and scores each technique, the script will put the technique ID and the total score into the JSON for the Navigator. 
+
+Note: If you decide to make changes to the columns for scoring purposes, be sure to update the columns within the script itself.
+
+`ATTACK-example.xlsx`
+
+This file is the same as the template, however has had random numbers (1-100) put into each cell. The total score is calculated by taking a third of each score and adding them up. This weighting is something to consider for each organization, and the formula should be updated accordingly. 
+
+`ATTACK-default.json`
+
+This is a vanilla export of the JSON file from the Navigator, with color and scoring information put in for the gradient (aqua). Update this file to suit your needs. The script will make a copy and fill in the technique information from the Excel file.
+
+`ATTACK-output.json`
+
+This file is the result of combinging the score information from the Excel file as well as the default JSON file. You can upload it to the ATTACK Navigator as-is to see the result of the random scoreing in `ATTACK-example.xlsx`. Change the import file to your own in order to generate a custom `ATTACK-output.json` file. 
 
 ### Prep
 
