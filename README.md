@@ -1,6 +1,6 @@
 # ATTACK-Mapping
 
-This project allows an information security team to score themselves against the Mitre ATT&CK framework, document it in an XLSX file, and then convert it to JSON that can be used with the ATT&CK Navigator. For more information on background, check out this article: [Use ATT&CK to Help Quantify Organizational Risk](https://medium.com/@andrewselig/use-att-ck-to-help-quantify-organizational-risk-9b3f7d513ae5)
+This project allows an information security team to score themselves against the Mitre ATT&CK framework, document it in an XLSX file, and then convert it to JSON that can be used with the ATT&CK Navigator. For more information on background, check out this article: [Use ATT&CK to Help Quantify Your Security Risk](https://medium.com/@andrewselig/use-att-ck-to-help-quantify-organizational-risk-9b3f7d513ae5)
 
 ### Files
 
